@@ -59,10 +59,11 @@ p {
 
 .cardTextContent {
     width: 100%;
-    max-height: 150px;
+    height: 120px;
     overflow: hidden;
     position: absolute;
-    top: 0;
+    top: 50%;
+    margin-top: -60px;
     left: 0;
     background-color: brown;
     background: rgba(0, 0, 0, 0.5);
