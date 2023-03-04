@@ -73,3 +73,26 @@ p {
 .card:hover .cardTextContent {
     opacity: 1;
 }
+
+.menuBlock {
+    position: fixed;
+    top: 50%;
+    margin-top: -85px;
+    left: 50px;
+    background-color: rgb(206, 65, 65);
+    color: rgb(41, 9, 156);
+    padding: 30px;
+    border-radius: 2px;
+}
+
+.menuBlock li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.menuBlock li a:hover {
+    color: black;
+    text-decoration: underline;
+}
